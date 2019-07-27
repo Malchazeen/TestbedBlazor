@@ -1,0 +1,32 @@
+[
+  {
+    "EntryNo": 1,
+    "EntryDateTime": "2014-10-06T11:05:00",
+    "EntryType": "Buy",
+    "Quantity": 20,
+    "GrossValue": 368000.00,
+    "NetValue": 368000.00,
+    "GrossUnitPrice": 18400.00,
+    "NetUnitPrice": 18400.00
+  },
+  {
+    "EntryNo": 2,
+    "EntryDateTime": "2015-02-23T13:23:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 92250.00,
+    "NetValue": 92250.00,
+    "GrossUnitPrice": 18450.00,
+    "NetUnitPrice": 18450.00
+  },
+  {
+    "EntryNo": 3,
+    "EntryDateTime": "2015-02-23T13:25:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 92500.00,
+    "NetValue": 92500.00,
+    "GrossUnitPrice": 18500.00,
+    "NetUnitPrice": 18500.00
+  }
+]

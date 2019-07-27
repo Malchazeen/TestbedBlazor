@@ -1,0 +1,1212 @@
+[
+  {
+    "EntryNo": 1,
+    "EntryDateTime": "2014-10-06T11:05:00",
+    "EntryType": "Buy",
+    "Quantity": 20,
+    "GrossValue": 368000.00,
+    "NetValue": 368000.00,
+    "GrossUnitPrice": 18400.00,
+    "NetUnitPrice": 18400.00
+  },
+  {
+    "EntryNo": 2,
+    "EntryDateTime": "2015-02-23T13:23:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 92250.00,
+    "NetValue": 92250.00,
+    "GrossUnitPrice": 18450.00,
+    "NetUnitPrice": 18450.00
+  },
+  {
+    "EntryNo": 3,
+    "EntryDateTime": "2015-02-23T13:25:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 92500.00,
+    "NetValue": 92500.00,
+    "GrossUnitPrice": 18500.00,
+    "NetUnitPrice": 18500.00
+  },
+  {
+    "EntryNo": 4,
+    "EntryDateTime": "2015-02-24T07:25:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 92000.00,
+    "NetValue": 92000.00,
+    "GrossUnitPrice": 18400.00,
+    "NetUnitPrice": 18400.00
+  },
+  {
+    "EntryNo": 5,
+    "EntryDateTime": "2015-02-24T22:07:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 92200.00,
+    "NetValue": 92200.00,
+    "GrossUnitPrice": 18440.00,
+    "NetUnitPrice": 18440.00
+  },
+  {
+    "EntryNo": 6,
+    "EntryDateTime": "2015-03-06T08:03:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 92000.00,
+    "NetValue": 92000.00,
+    "GrossUnitPrice": 18400.00,
+    "NetUnitPrice": 18400.00
+  },
+  {
+    "EntryNo": 7,
+    "EntryDateTime": "2015-03-06T08:03:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 91850.00,
+    "NetValue": 91850.00,
+    "GrossUnitPrice": 18370.00,
+    "NetUnitPrice": 18370.00
+  },
+  {
+    "EntryNo": 8,
+    "EntryDateTime": "2015-03-06T08:04:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 183500.00,
+    "NetValue": 183500.00,
+    "GrossUnitPrice": 18350.00,
+    "NetUnitPrice": 18350.00
+  },
+  {
+    "EntryNo": 9,
+    "EntryDateTime": "2015-03-06T08:05:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 183000.00,
+    "NetValue": 183000.00,
+    "GrossUnitPrice": 18300.00,
+    "NetUnitPrice": 18300.00
+  },
+  {
+    "EntryNo": 10,
+    "EntryDateTime": "2015-03-06T08:05:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 182500.00,
+    "NetValue": 182500.00,
+    "GrossUnitPrice": 18250.00,
+    "NetUnitPrice": 18250.00
+  },
+  {
+    "EntryNo": 11,
+    "EntryDateTime": "2015-03-06T08:06:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 182000.00,
+    "NetValue": 182000.00,
+    "GrossUnitPrice": 18200.00,
+    "NetUnitPrice": 18200.00
+  },
+  {
+    "EntryNo": 12,
+    "EntryDateTime": "2015-03-09T08:40:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 90550.00,
+    "NetValue": 90550.00,
+    "GrossUnitPrice": 18110.00,
+    "NetUnitPrice": 18110.00
+  },
+  {
+    "EntryNo": 13,
+    "EntryDateTime": "2015-03-09T08:40:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 180500.00,
+    "NetValue": 180500.00,
+    "GrossUnitPrice": 18050.00,
+    "NetUnitPrice": 18050.00
+  },
+  {
+    "EntryNo": 14,
+    "EntryDateTime": "2015-03-09T09:24:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 90400.00,
+    "NetValue": 90400.00,
+    "GrossUnitPrice": 18080.00,
+    "NetUnitPrice": 18080.00
+  },
+  {
+    "EntryNo": 15,
+    "EntryDateTime": "2015-03-09T13:09:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 90400.00,
+    "NetValue": 90400.00,
+    "GrossUnitPrice": 18080.00,
+    "NetUnitPrice": 18080.00
+  },
+  {
+    "EntryNo": 16,
+    "EntryDateTime": "2015-03-09T20:17:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 90400.00,
+    "NetValue": 90400.00,
+    "GrossUnitPrice": 18080.00,
+    "NetUnitPrice": 18080.00
+  },
+  {
+    "EntryNo": 17,
+    "EntryDateTime": "2015-03-10T08:12:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 180000.00,
+    "NetValue": 180000.00,
+    "GrossUnitPrice": 18000.00,
+    "NetUnitPrice": 18000.00
+  },
+  {
+    "EntryNo": 18,
+    "EntryDateTime": "2015-03-10T08:28:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179500.00,
+    "NetValue": 179500.00,
+    "GrossUnitPrice": 17950.00,
+    "NetUnitPrice": 17950.00
+  },
+  {
+    "EntryNo": 19,
+    "EntryDateTime": "2015-03-10T09:38:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 180200.00,
+    "NetValue": 180200.00,
+    "GrossUnitPrice": 18020.00,
+    "NetUnitPrice": 18020.00
+  },
+  {
+    "EntryNo": 20,
+    "EntryDateTime": "2015-03-10T13:12:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179700.00,
+    "NetValue": 179700.00,
+    "GrossUnitPrice": 17970.00,
+    "NetUnitPrice": 17970.00
+  },
+  {
+    "EntryNo": 21,
+    "EntryDateTime": "2015-03-11T08:00:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179200.00,
+    "NetValue": 179200.00,
+    "GrossUnitPrice": 17920.00,
+    "NetUnitPrice": 17920.00
+  },
+  {
+    "EntryNo": 22,
+    "EntryDateTime": "2015-03-11T13:09:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179500.00,
+    "NetValue": 179500.00,
+    "GrossUnitPrice": 17950.00,
+    "NetUnitPrice": 17950.00
+  },
+  {
+    "EntryNo": 23,
+    "EntryDateTime": "2015-03-11T21:12:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179700.00,
+    "NetValue": 179700.00,
+    "GrossUnitPrice": 17970.00,
+    "NetUnitPrice": 17970.00
+  },
+  {
+    "EntryNo": 24,
+    "EntryDateTime": "2015-03-11T21:28:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179500.00,
+    "NetValue": 179500.00,
+    "GrossUnitPrice": 17950.00,
+    "NetUnitPrice": 17950.00
+  },
+  {
+    "EntryNo": 25,
+    "EntryDateTime": "2015-03-12T08:17:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179000.00,
+    "NetValue": 179000.00,
+    "GrossUnitPrice": 17900.00,
+    "NetUnitPrice": 17900.00
+  },
+  {
+    "EntryNo": 26,
+    "EntryDateTime": "2015-03-12T22:58:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179000.00,
+    "NetValue": 179000.00,
+    "GrossUnitPrice": 17900.00,
+    "NetUnitPrice": 17900.00
+  },
+  {
+    "EntryNo": 27,
+    "EntryDateTime": "2015-07-21T23:53:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 180700.00,
+    "NetValue": 180700.00,
+    "GrossUnitPrice": 18070.00,
+    "NetUnitPrice": 18070.00
+  },
+  {
+    "EntryNo": 28,
+    "EntryDateTime": "2015-07-22T09:06:00",
+    "EntryType": "Buy",
+    "Quantity": 30,
+    "GrossValue": 538500.00,
+    "NetValue": 538500.00,
+    "GrossUnitPrice": 17950.00,
+    "NetUnitPrice": 17950.00
+  },
+  {
+    "EntryNo": 29,
+    "EntryDateTime": "2015-07-22T09:12:00",
+    "EntryType": "Buy",
+    "Quantity": 20,
+    "GrossValue": 359600.00,
+    "NetValue": 359600.00,
+    "GrossUnitPrice": 17980.00,
+    "NetUnitPrice": 17980.00
+  },
+  {
+    "EntryNo": 30,
+    "EntryDateTime": "2015-07-22T09:13:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179000.00,
+    "NetValue": 179000.00,
+    "GrossUnitPrice": 17900.00,
+    "NetUnitPrice": 17900.00
+  },
+  {
+    "EntryNo": 31,
+    "EntryDateTime": "2015-07-22T18:53:00",
+    "EntryType": "Buy",
+    "Quantity": 20,
+    "GrossValue": 358000.00,
+    "NetValue": 358000.00,
+    "GrossUnitPrice": 17900.00,
+    "NetUnitPrice": 17900.00
+  },
+  {
+    "EntryNo": 32,
+    "EntryDateTime": "2015-08-24T19:30:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 196600.00,
+    "NetValue": 196600.00,
+    "GrossUnitPrice": 19660.00,
+    "NetUnitPrice": 19660.00
+  },
+  {
+    "EntryNo": 33,
+    "EntryDateTime": "2015-09-24T20:42:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 197000.00,
+    "NetValue": 197000.00,
+    "GrossUnitPrice": 19700.00,
+    "NetUnitPrice": 19700.00
+  },
+  {
+    "EntryNo": 34,
+    "EntryDateTime": "2015-10-14T06:39:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 197500.00,
+    "NetValue": 197500.00,
+    "GrossUnitPrice": 19750.00,
+    "NetUnitPrice": 19750.00
+  },
+  {
+    "EntryNo": 35,
+    "EntryDateTime": "2015-11-27T09:14:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 181000.00,
+    "NetValue": 181000.00,
+    "GrossUnitPrice": 18100.00,
+    "NetUnitPrice": 18100.00
+  },
+  {
+    "EntryNo": 36,
+    "EntryDateTime": "2015-11-27T09:15:00",
+    "EntryType": "Buy",
+    "Quantity": 50,
+    "GrossValue": 900000.00,
+    "NetValue": 900000.00,
+    "GrossUnitPrice": 18000.00,
+    "NetUnitPrice": 18000.00
+  },
+  {
+    "EntryNo": 37,
+    "EntryDateTime": "2015-11-27T17:58:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 181200.00,
+    "NetValue": 181200.00,
+    "GrossUnitPrice": 18120.00,
+    "NetUnitPrice": 18120.00
+  },
+  {
+    "EntryNo": 38,
+    "EntryDateTime": "2015-12-02T20:13:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179700.00,
+    "NetValue": 179700.00,
+    "GrossUnitPrice": 17970.00,
+    "NetUnitPrice": 17970.00
+  },
+  {
+    "EntryNo": 39,
+    "EntryDateTime": "2015-12-02T23:30:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179700.00,
+    "NetValue": 179700.00,
+    "GrossUnitPrice": 17970.00,
+    "NetUnitPrice": 17970.00
+  },
+  {
+    "EntryNo": 40,
+    "EntryDateTime": "2015-12-03T07:55:00",
+    "EntryType": "Buy",
+    "Quantity": 20,
+    "GrossValue": 357000.00,
+    "NetValue": 357000.00,
+    "GrossUnitPrice": 17850.00,
+    "NetUnitPrice": 17850.00
+  },
+  {
+    "EntryNo": 41,
+    "EntryDateTime": "2015-12-17T21:55:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 179900.00,
+    "NetValue": 179900.00,
+    "GrossUnitPrice": 17990.00,
+    "NetUnitPrice": 17990.00
+  },
+  {
+    "EntryNo": 42,
+    "EntryDateTime": "2016-02-08T10:02:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 196500.00,
+    "NetValue": 196500.00,
+    "GrossUnitPrice": 19650.00,
+    "NetUnitPrice": 19650.00
+  },
+  {
+    "EntryNo": 43,
+    "EntryDateTime": "2016-02-08T10:03:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 197000.00,
+    "NetValue": 197000.00,
+    "GrossUnitPrice": 19700.00,
+    "NetUnitPrice": 19700.00
+  },
+  {
+    "EntryNo": 44,
+    "EntryDateTime": "2016-02-08T10:04:00",
+    "EntryType": "Sell",
+    "Quantity": 20,
+    "GrossValue": 395000.00,
+    "NetValue": 395000.00,
+    "GrossUnitPrice": 19750.00,
+    "NetUnitPrice": 19750.00
+  },
+  {
+    "EntryNo": 45,
+    "EntryDateTime": "2016-02-08T22:29:00",
+    "EntryType": "Sell",
+    "Quantity": 30,
+    "GrossValue": 600000.00,
+    "NetValue": 600000.00,
+    "GrossUnitPrice": 20000.00,
+    "NetUnitPrice": 20000.00
+  },
+  {
+    "EntryNo": 46,
+    "EntryDateTime": "2016-02-08T22:47:00",
+    "EntryType": "Sell",
+    "Quantity": 20,
+    "GrossValue": 399400.00,
+    "NetValue": 399400.00,
+    "GrossUnitPrice": 19970.00,
+    "NetUnitPrice": 19970.00
+  },
+  {
+    "EntryNo": 47,
+    "EntryDateTime": "2016-02-11T09:35:00",
+    "EntryType": "Sell",
+    "Quantity": 20,
+    "GrossValue": 402000.00,
+    "NetValue": 402000.00,
+    "GrossUnitPrice": 20100.00,
+    "NetUnitPrice": 20100.00
+  },
+  {
+    "EntryNo": 48,
+    "EntryDateTime": "2016-02-11T09:38:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 201500.00,
+    "NetValue": 201500.00,
+    "GrossUnitPrice": 20150.00,
+    "NetUnitPrice": 20150.00
+  },
+  {
+    "EntryNo": 49,
+    "EntryDateTime": "2016-02-11T15:56:00",
+    "EntryType": "Sell",
+    "Quantity": 20,
+    "GrossValue": 406000.00,
+    "NetValue": 406000.00,
+    "GrossUnitPrice": 20300.00,
+    "NetUnitPrice": 20300.00
+  },
+  {
+    "EntryNo": 50,
+    "EntryDateTime": "2016-02-11T18:19:00",
+    "EntryType": "Sell",
+    "Quantity": 20,
+    "GrossValue": 410000.00,
+    "NetValue": 410000.00,
+    "GrossUnitPrice": 20500.00,
+    "NetUnitPrice": 20500.00
+  },
+  {
+    "EntryNo": 51,
+    "EntryDateTime": "2016-02-11T20:27:00",
+    "EntryType": "Sell",
+    "Quantity": 20,
+    "GrossValue": 414000.00,
+    "NetValue": 414000.00,
+    "GrossUnitPrice": 20700.00,
+    "NetUnitPrice": 20700.00
+  },
+  {
+    "EntryNo": 52,
+    "EntryDateTime": "2016-02-24T08:58:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 103750.00,
+    "NetValue": 103750.00,
+    "GrossUnitPrice": 20750.00,
+    "NetUnitPrice": 20750.00
+  },
+  {
+    "EntryNo": 53,
+    "EntryDateTime": "2016-02-24T09:00:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 104000.00,
+    "NetValue": 104000.00,
+    "GrossUnitPrice": 20800.00,
+    "NetUnitPrice": 20800.00
+  },
+  {
+    "EntryNo": 54,
+    "EntryDateTime": "2016-02-24T09:00:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 104400.00,
+    "NetValue": 104400.00,
+    "GrossUnitPrice": 20880.00,
+    "NetUnitPrice": 20880.00
+  },
+  {
+    "EntryNo": 55,
+    "EntryDateTime": "2016-02-24T09:01:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 104500.00,
+    "NetValue": 104500.00,
+    "GrossUnitPrice": 20900.00,
+    "NetUnitPrice": 20900.00
+  },
+  {
+    "EntryNo": 56,
+    "EntryDateTime": "2016-02-24T17:44:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 105000.00,
+    "NetValue": 105000.00,
+    "GrossUnitPrice": 21000.00,
+    "NetUnitPrice": 21000.00
+  },
+  {
+    "EntryNo": 57,
+    "EntryDateTime": "2016-03-08T09:18:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 106500.00,
+    "NetValue": 106500.00,
+    "GrossUnitPrice": 21300.00,
+    "NetUnitPrice": 21300.00
+  },
+  {
+    "EntryNo": 58,
+    "EntryDateTime": "2016-05-02T13:18:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 107000.00,
+    "NetValue": 107000.00,
+    "GrossUnitPrice": 21400.00,
+    "NetUnitPrice": 21400.00
+  },
+  {
+    "EntryNo": 59,
+    "EntryDateTime": "2016-06-16T10:29:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 108000.00,
+    "NetValue": 108000.00,
+    "GrossUnitPrice": 21600.00,
+    "NetUnitPrice": 21600.00
+  },
+  {
+    "EntryNo": 60,
+    "EntryDateTime": "2016-06-16T13:21:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 108500.00,
+    "NetValue": 108500.00,
+    "GrossUnitPrice": 21700.00,
+    "NetUnitPrice": 21700.00
+  },
+  {
+    "EntryNo": 61,
+    "EntryDateTime": "2016-06-16T13:25:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 109500.00,
+    "NetValue": 109500.00,
+    "GrossUnitPrice": 21900.00,
+    "NetUnitPrice": 21900.00
+  },
+  {
+    "EntryNo": 62,
+    "EntryDateTime": "2016-07-04T10:42:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 111750.00,
+    "NetValue": 111750.00,
+    "GrossUnitPrice": 22350.00,
+    "NetUnitPrice": 22350.00
+  },
+  {
+    "EntryNo": 63,
+    "EntryDateTime": "2016-11-11T22:21:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 103000.00,
+    "NetValue": 103000.00,
+    "GrossUnitPrice": 20600.00,
+    "NetUnitPrice": 20600.00
+  },
+  {
+    "EntryNo": 64,
+    "EntryDateTime": "2016-11-14T09:44:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 102450.00,
+    "NetValue": 102450.00,
+    "GrossUnitPrice": 20490.00,
+    "NetUnitPrice": 20490.00
+  },
+  {
+    "EntryNo": 65,
+    "EntryDateTime": "2016-11-14T09:51:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 102000.00,
+    "NetValue": 102000.00,
+    "GrossUnitPrice": 20400.00,
+    "NetUnitPrice": 20400.00
+  },
+  {
+    "EntryNo": 66,
+    "EntryDateTime": "2016-11-14T16:27:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 204000.00,
+    "NetValue": 204000.00,
+    "GrossUnitPrice": 20400.00,
+    "NetUnitPrice": 20400.00
+  },
+  {
+    "EntryNo": 67,
+    "EntryDateTime": "2016-11-18T09:12:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 203800.00,
+    "NetValue": 203800.00,
+    "GrossUnitPrice": 20380.00,
+    "NetUnitPrice": 20380.00
+  },
+  {
+    "EntryNo": 68,
+    "EntryDateTime": "2016-11-18T09:13:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 203500.00,
+    "NetValue": 203500.00,
+    "GrossUnitPrice": 20350.00,
+    "NetUnitPrice": 20350.00
+  },
+  {
+    "EntryNo": 69,
+    "EntryDateTime": "2016-11-18T23:25:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 203400.00,
+    "NetValue": 203400.00,
+    "GrossUnitPrice": 20340.00,
+    "NetUnitPrice": 20340.00
+  },
+  {
+    "EntryNo": 70,
+    "EntryDateTime": "2016-11-22T08:45:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 203500.00,
+    "NetValue": 203500.00,
+    "GrossUnitPrice": 20350.00,
+    "NetUnitPrice": 20350.00
+  },
+  {
+    "EntryNo": 71,
+    "EntryDateTime": "2016-11-22T21:05:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 203900.00,
+    "NetValue": 203900.00,
+    "GrossUnitPrice": 20390.00,
+    "NetUnitPrice": 20390.00
+  },
+  {
+    "EntryNo": 72,
+    "EntryDateTime": "2016-11-23T08:46:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 202500.00,
+    "NetValue": 202500.00,
+    "GrossUnitPrice": 20250.00,
+    "NetUnitPrice": 20250.00
+  },
+  {
+    "EntryNo": 73,
+    "EntryDateTime": "2016-11-23T08:46:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 202000.00,
+    "NetValue": 202000.00,
+    "GrossUnitPrice": 20200.00,
+    "NetUnitPrice": 20200.00
+  },
+  {
+    "EntryNo": 74,
+    "EntryDateTime": "2016-11-23T09:41:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 203000.00,
+    "NetValue": 203000.00,
+    "GrossUnitPrice": 20300.00,
+    "NetUnitPrice": 20300.00
+  },
+  {
+    "EntryNo": 75,
+    "EntryDateTime": "2016-11-23T20:41:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 201000.00,
+    "NetValue": 201000.00,
+    "GrossUnitPrice": 20100.00,
+    "NetUnitPrice": 20100.00
+  },
+  {
+    "EntryNo": 76,
+    "EntryDateTime": "2016-11-23T21:34:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 201500.00,
+    "NetValue": 201500.00,
+    "GrossUnitPrice": 20150.00,
+    "NetUnitPrice": 20150.00
+  },
+  {
+    "EntryNo": 77,
+    "EntryDateTime": "2016-11-25T08:52:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 199000.00,
+    "NetValue": 199000.00,
+    "GrossUnitPrice": 19900.00,
+    "NetUnitPrice": 19900.00
+  },
+  {
+    "EntryNo": 78,
+    "EntryDateTime": "2016-11-30T06:42:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 199000.00,
+    "NetValue": 199000.00,
+    "GrossUnitPrice": 19900.00,
+    "NetUnitPrice": 19900.00
+  },
+  {
+    "EntryNo": 79,
+    "EntryDateTime": "2016-11-30T06:43:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 198500.00,
+    "NetValue": 198500.00,
+    "GrossUnitPrice": 19850.00,
+    "NetUnitPrice": 19850.00
+  },
+  {
+    "EntryNo": 80,
+    "EntryDateTime": "2016-12-01T08:42:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 197800.00,
+    "NetValue": 197800.00,
+    "GrossUnitPrice": 19780.00,
+    "NetUnitPrice": 19780.00
+  },
+  {
+    "EntryNo": 81,
+    "EntryDateTime": "2016-12-01T08:42:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 197500.00,
+    "NetValue": 197500.00,
+    "GrossUnitPrice": 19750.00,
+    "NetUnitPrice": 19750.00
+  },
+  {
+    "EntryNo": 82,
+    "EntryDateTime": "2016-12-01T08:42:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 197000.00,
+    "NetValue": 197000.00,
+    "GrossUnitPrice": 19700.00,
+    "NetUnitPrice": 19700.00
+  },
+  {
+    "EntryNo": 83,
+    "EntryDateTime": "2016-12-01T08:43:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 196500.00,
+    "NetValue": 196500.00,
+    "GrossUnitPrice": 19650.00,
+    "NetUnitPrice": 19650.00
+  },
+  {
+    "EntryNo": 84,
+    "EntryDateTime": "2016-12-05T08:39:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 196500.00,
+    "NetValue": 196500.00,
+    "GrossUnitPrice": 19650.00,
+    "NetUnitPrice": 19650.00
+  },
+  {
+    "EntryNo": 85,
+    "EntryDateTime": "2016-12-05T08:41:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 196000.00,
+    "NetValue": 196000.00,
+    "GrossUnitPrice": 19600.00,
+    "NetUnitPrice": 19600.00
+  },
+  {
+    "EntryNo": 86,
+    "EntryDateTime": "2016-12-12T08:02:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 195000.00,
+    "NetValue": 195000.00,
+    "GrossUnitPrice": 19500.00,
+    "NetUnitPrice": 19500.00
+  },
+  {
+    "EntryNo": 87,
+    "EntryDateTime": "2016-12-15T06:16:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 192500.00,
+    "NetValue": 192500.00,
+    "GrossUnitPrice": 19250.00,
+    "NetUnitPrice": 19250.00
+  },
+  {
+    "EntryNo": 88,
+    "EntryDateTime": "2016-12-15T06:21:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 192000.00,
+    "NetValue": 192000.00,
+    "GrossUnitPrice": 19200.00,
+    "NetUnitPrice": 19200.00
+  },
+  {
+    "EntryNo": 89,
+    "EntryDateTime": "2016-12-15T07:43:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 191000.00,
+    "NetValue": 191000.00,
+    "GrossUnitPrice": 19100.00,
+    "NetUnitPrice": 19100.00
+  },
+  {
+    "EntryNo": 90,
+    "EntryDateTime": "2016-12-15T22:44:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 191300.00,
+    "NetValue": 191300.00,
+    "GrossUnitPrice": 19130.00,
+    "NetUnitPrice": 19130.00
+  },
+  {
+    "EntryNo": 91,
+    "EntryDateTime": "2017-04-11T21:27:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 207300.00,
+    "NetValue": 207300.00,
+    "GrossUnitPrice": 20730.00,
+    "NetUnitPrice": 20730.00
+  },
+  {
+    "EntryNo": 92,
+    "EntryDateTime": "2017-06-26T20:08:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 200200.00,
+    "NetValue": 200200.00,
+    "GrossUnitPrice": 20020.00,
+    "NetUnitPrice": 20020.00
+  },
+  {
+    "EntryNo": 93,
+    "EntryDateTime": "2017-06-29T19:30:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 200000.00,
+    "NetValue": 200000.00,
+    "GrossUnitPrice": 20000.00,
+    "NetUnitPrice": 20000.00
+  },
+  {
+    "EntryNo": 94,
+    "EntryDateTime": "2017-06-30T12:22:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 199800.00,
+    "NetValue": 199800.00,
+    "GrossUnitPrice": 19980.00,
+    "NetUnitPrice": 19980.00
+  },
+  {
+    "EntryNo": 95,
+    "EntryDateTime": "2017-06-30T12:23:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 199900.00,
+    "NetValue": 199900.00,
+    "GrossUnitPrice": 19990.00,
+    "NetUnitPrice": 19990.00
+  },
+  {
+    "EntryNo": 96,
+    "EntryDateTime": "2017-07-03T07:16:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 199000.00,
+    "NetValue": 199000.00,
+    "GrossUnitPrice": 19900.00,
+    "NetUnitPrice": 19900.00
+  },
+  {
+    "EntryNo": 97,
+    "EntryDateTime": "2017-07-03T07:17:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 198500.00,
+    "NetValue": 198500.00,
+    "GrossUnitPrice": 19850.00,
+    "NetUnitPrice": 19850.00
+  },
+  {
+    "EntryNo": 98,
+    "EntryDateTime": "2017-07-03T07:17:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 198000.00,
+    "NetValue": 198000.00,
+    "GrossUnitPrice": 19800.00,
+    "NetUnitPrice": 19800.00
+  },
+  {
+    "EntryNo": 99,
+    "EntryDateTime": "2017-07-03T13:11:00",
+    "EntryType": "Buy",
+    "Quantity": 5,
+    "GrossValue": 99600.00,
+    "NetValue": 99600.00,
+    "GrossUnitPrice": 19920.00,
+    "NetUnitPrice": 19920.00
+  },
+  {
+    "EntryNo": 100,
+    "EntryDateTime": "2017-07-03T17:12:00",
+    "EntryType": "Buy",
+    "Quantity": 15,
+    "GrossValue": 298650.00,
+    "NetValue": 298650.00,
+    "GrossUnitPrice": 19910.00,
+    "NetUnitPrice": 19910.00
+  },
+  {
+    "EntryNo": 101,
+    "EntryDateTime": "2017-07-03T23:45:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 197100.00,
+    "NetValue": 197100.00,
+    "GrossUnitPrice": 19710.00,
+    "NetUnitPrice": 19710.00
+  },
+  {
+    "EntryNo": 102,
+    "EntryDateTime": "2017-07-05T15:32:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 196700.00,
+    "NetValue": 196700.00,
+    "GrossUnitPrice": 19670.00,
+    "NetUnitPrice": 19670.00
+  },
+  {
+    "EntryNo": 103,
+    "EntryDateTime": "2017-07-07T20:59:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 196000.00,
+    "NetValue": 196000.00,
+    "GrossUnitPrice": 19600.00,
+    "NetUnitPrice": 19600.00
+  },
+  {
+    "EntryNo": 104,
+    "EntryDateTime": "2017-08-29T09:49:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 103250.00,
+    "NetValue": 103250.00,
+    "GrossUnitPrice": 20650.00,
+    "NetUnitPrice": 20650.00
+  },
+  {
+    "EntryNo": 105,
+    "EntryDateTime": "2017-08-29T09:50:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 103500.00,
+    "NetValue": 103500.00,
+    "GrossUnitPrice": 20700.00,
+    "NetUnitPrice": 20700.00
+  },
+  {
+    "EntryNo": 106,
+    "EntryDateTime": "2017-09-01T07:38:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 103750.00,
+    "NetValue": 103750.00,
+    "GrossUnitPrice": 20750.00,
+    "NetUnitPrice": 20750.00
+  },
+  {
+    "EntryNo": 107,
+    "EntryDateTime": "2017-09-04T08:11:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 104500.00,
+    "NetValue": 104500.00,
+    "GrossUnitPrice": 20900.00,
+    "NetUnitPrice": 20900.00
+  },
+  {
+    "EntryNo": 108,
+    "EntryDateTime": "2017-09-04T08:43:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 104350.00,
+    "NetValue": 104350.00,
+    "GrossUnitPrice": 20870.00,
+    "NetUnitPrice": 20870.00
+  },
+  {
+    "EntryNo": 109,
+    "EntryDateTime": "2017-09-06T09:00:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 104750.00,
+    "NetValue": 104750.00,
+    "GrossUnitPrice": 20950.00,
+    "NetUnitPrice": 20950.00
+  },
+  {
+    "EntryNo": 110,
+    "EntryDateTime": "2017-09-07T08:59:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 105000.00,
+    "NetValue": 105000.00,
+    "GrossUnitPrice": 21000.00,
+    "NetUnitPrice": 21000.00
+  },
+  {
+    "EntryNo": 111,
+    "EntryDateTime": "2017-09-08T09:07:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 105250.00,
+    "NetValue": 105250.00,
+    "GrossUnitPrice": 21050.00,
+    "NetUnitPrice": 21050.00
+  },
+  {
+    "EntryNo": 112,
+    "EntryDateTime": "2017-09-08T09:08:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 105500.00,
+    "NetValue": 105500.00,
+    "GrossUnitPrice": 21100.00,
+    "NetUnitPrice": 21100.00
+  },
+  {
+    "EntryNo": 113,
+    "EntryDateTime": "2017-09-08T09:08:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 105750.00,
+    "NetValue": 105750.00,
+    "GrossUnitPrice": 21150.00,
+    "NetUnitPrice": 21150.00
+  },
+  {
+    "EntryNo": 114,
+    "EntryDateTime": "2017-12-08T13:41:00",
+    "EntryType": "Buy",
+    "Quantity": 10,
+    "GrossValue": 193000.00,
+    "NetValue": 193000.00,
+    "GrossUnitPrice": 19300.00,
+    "NetUnitPrice": 19300.00
+  },
+  {
+    "EntryNo": 115,
+    "EntryDateTime": "2019-06-07T19:42:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 99400.00,
+    "NetValue": 99400.00,
+    "GrossUnitPrice": 19880.00,
+    "NetUnitPrice": 19880.00
+  },
+  {
+    "EntryNo": 116,
+    "EntryDateTime": "2019-06-14T11:47:00",
+    "EntryType": "Sell",
+    "Quantity": 5,
+    "GrossValue": 99750.00,
+    "NetValue": 99750.00,
+    "GrossUnitPrice": 19950.00,
+    "NetUnitPrice": 19950.00
+  },
+  {
+    "EntryNo": 117,
+    "EntryDateTime": "2019-06-21T00:23:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 202500.00,
+    "NetValue": 202500.00,
+    "GrossUnitPrice": 20250.00,
+    "NetUnitPrice": 20250.00
+  },
+  {
+    "EntryNo": 118,
+    "EntryDateTime": "2019-06-25T00:49:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 204500.00,
+    "NetValue": 204500.00,
+    "GrossUnitPrice": 20450.00,
+    "NetUnitPrice": 20450.00
+  },
+  {
+    "EntryNo": 119,
+    "EntryDateTime": "2019-06-25T08:49:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 206500.00,
+    "NetValue": 206500.00,
+    "GrossUnitPrice": 20650.00,
+    "NetUnitPrice": 20650.00
+  },
+  {
+    "EntryNo": 120,
+    "EntryDateTime": "2019-06-25T08:49:00",
+    "EntryType": "Sell",
+    "Quantity": 10,
+    "GrossValue": 207500.00,
+    "NetValue": 207500.00,
+    "GrossUnitPrice": 20750.00,
+    "NetUnitPrice": 20750.00
+  },
+  {
+    "EntryNo": 121,
+    "EntryDateTime": "2019-07-19T01:23:00",
+    "EntryType": "Sell",
+    "Quantity": 20,
+    "GrossValue": 417000.00,
+    "NetValue": 417000.00,
+    "GrossUnitPrice": 20850.00,
+    "NetUnitPrice": 20850.00
+  }
+]
