@@ -1,0 +1,36 @@
+﻿@using System.Text
+@using COGSLib;
+@page "/"
+@inject IJSRuntime jsRuntime
+@inject WeightedAverage weightedAvg
+@inject FIFO fifo
+@inject LIFO lifo
+
+<h1>COGS</h1>
+
+<input @ref="inputFile" type="file" @onchange="FileChosen" />
+
+<COGS Title="Weighted Average" COGSResult="weightedAvgResult" />
+<COGS Title="First In First Out" COGSResult="fifoResult" />
+<COGS Title="Last In First Out" COGSResult="lifoResult" />
+
+@code {
+    private ElementRef inputFile;
+
+    private COGSResult weightedAvgResult;
+    private COGSResult fifoResult;
+    private COGSResult lifoResult;
+
+    private async Task FileChosen()
+    {
+        string dataUrlJS = await jsRuntime.InvokeAsync<string>("jsInterop.GetFileData", inputFile);
+        DataUrl dataUrl = new DataUrl(dataUrlJS);
+        byte[] data = Convert.FromBase64String(dataUrl.Data);
+        string json = Encoding.UTF8.GetString(data);
+        List<Entry> entries = JsonConvert.DeserializeObject<List<Entry>>(json);
+
+        weightedAvgResult = weightedAvg.ComputeCOGS(entries);
+        fifoResult = fifo.ComputeCOGS(entries);
+        lifoResult = lifo.ComputeCOGS(entries);
+    }
+}

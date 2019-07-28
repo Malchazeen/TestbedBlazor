@@ -1,0 +1,41 @@
+﻿@using COGSLib;
+
+<table>
+    <tr>
+        <th scope="row">OutstandingQuantity</th>
+        <td>@Performance.OutstandingQuantity</td>
+    </tr>
+    <tr>
+        <th scope="row">InputValue</th>
+        <td>@Performance.InputValue</td>
+    </tr>
+    <tr>
+        <th scope="row">UnallocatedValue</th>
+        <td>@Performance.UnallocatedValue</td>
+    </tr>
+    <tr>
+        <th scope="row">OutstandingValue</th>
+        <td>@Performance.OutstandingValue</td>
+    </tr>
+    <tr>
+        <th scope="row">AllocatedValue</th>
+        <td>@Performance.AllocatedValue</td>
+    </tr>
+    <tr>
+        <th scope="row">AllocatedUnitPrice</th>
+        <td>@Performance.AllocatedUnitPrice</td>
+    </tr>
+    <tr>
+        <th scope="row">OutstandingUnitPrice</th>
+        <td>@Performance.OutstandingUnitPrice</td>
+    </tr>
+    <tr>
+        <th scope="row">RealizedProfit</th>
+        <td>@Performance.RealizedProfit</td>
+    </tr>
+</table>
+
+@code {
+    [Parameter]    
+    private Performance Performance { get; set; }
+}
