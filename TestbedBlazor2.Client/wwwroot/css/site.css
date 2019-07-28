@@ -131,3 +131,15 @@ app {
         display: block;
     }
 }
+
+.table-striped tbody:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bg-yellow {
+    background-color: #ffeeba;
+}
+
+.clickable {
+    cursor: pointer;
+}

@@ -1,7 +1,7 @@
 ﻿@using COGSLib;
 
-<div>
-    <h1 @onclick="TitleClicked">@Title</h1>
+<div class="card">
+    <h1 class="clickable card-header" @onclick="TitleClicked">@Title</h1>
     @if (visible)
     {
         <COGSPerformance Performance="Performance" />
