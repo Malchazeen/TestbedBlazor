@@ -5,6 +5,7 @@
     @if (visible)
     {
         <COGSPerformance Performance="Performance" />
+        <COGSEntries Entries="Entries" />
     }
 </div>
 
@@ -15,6 +16,7 @@
     private COGSResult COGSResult { get; set; }
 
     private Performance Performance => COGSResult?.Performance ?? new Performance(0, 0, 0, 0);
+    private List<ComputedEntry> Entries => COGSResult?.Entries ?? new List<ComputedEntry>();
     private bool visible = false;
 
     private void TitleClicked()

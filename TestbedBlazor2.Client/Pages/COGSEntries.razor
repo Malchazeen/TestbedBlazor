@@ -1,0 +1,47 @@
+﻿@using COGSLib;
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>EntryNo</th>
+            <th>EntryDateTime</th>
+            <th>EntryType</th>
+            <th>Quantity</th>
+            <th>GrossValue</th>
+            <th>GrossUnitPrice</th>
+            <th>NetValue</th>
+            <th>NetUnitPrice</th>
+            <th>RemainingQuantity</th>
+            <th>RealizedProfit</th>
+        </tr>
+    </thead>
+    @foreach (var entry in Entries.Where(x => x.EntryType == EntryType.Buy))
+    {
+        <COGSEntriesSub Entries="Entries" Entry="entry" />
+    }
+</table>
+
+@code {
+    [Parameter]
+    private List<ComputedEntry> Entries { get; set; }
+
+    private List<ComputedEntry> GetRelatedEntries(int entryNo)
+    {
+        if (Entries.Single(x => x.EntryNo == entryNo).EntryType == EntryType.Sell)
+            throw new InvalidOperationException();
+
+        var relatedEntries = Entries.SelectMany(x => x.RelatedEntries);
+        return (from a in Entries
+                  join b in relatedEntries on a.EntryNo equals b.RelatedEntryNo
+                  join c in Entries on b.EntryNo equals c.EntryNo
+                  where a.EntryNo == entryNo
+                  select new ComputedEntry(c.EntryNo
+                    , c.EntryDateTime
+                    , c.EntryType
+                    , c.Quantity
+                    , c.GrossValue
+                    , c.NetValue
+                    , null)
+                  { QuantityConsumed = b.Quantity, }).ToList();
+    }
+}

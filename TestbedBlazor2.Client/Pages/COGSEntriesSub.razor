@@ -1,0 +1,92 @@
+﻿@using COGSLib;
+
+<tbody>
+    <tr @onclick="RowClicked">
+        <th>@Entry.EntryNo</th>
+        <th>@Entry.EntryDateTime.ToString("dd/MM/yyyy HH:mm")</th>
+        <th>@Entry.EntryType</th>
+        <th>@Entry.Quantity</th>
+        <th>@Entry.GrossValue</th>
+        <th>@Entry.GrossUnitPrice</th>
+        <th>@Entry.NetValue</th>
+        <th>@Entry.NetUnitPrice</th>
+        <th>@(Entry.EntryType == EntryType.Buy ? $"{Entry.RemainingQuantity}" : "-")</th>
+        <th>@(Entry.EntryType == EntryType.Buy ? $"{RelatedEntries.Sum(x=>x.NetValue * (x.QuantityConsumed / (decimal)x.Quantity)) - Entry.NetValue * (RelatedEntries.Sum(x=>x.QuantityConsumed) / (decimal)Entry.Quantity)}" : "-")</th>
+    </tr>
+    @if (visible)
+    {
+        <tr>
+            <td colspan="10">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>EntryNo</th>
+                            <th>EntryDateTime</th>
+                            <th>EntryType</th>
+                            <th>Quantity</th>
+                            <th>MatchedGrossValue</th>
+                            <th>GrossUnitPrice</th>
+                            <th>MatchedNetValue</th>
+                            <th>NetUnitPrice</th>
+                            <th>MatchedQuantity</th>
+                            <th>RealizedProfit</th>
+                        </tr>
+                    </thead>
+                    @foreach (var entry in RelatedEntries)
+                    {
+                        <tr>
+                            <th>@entry.EntryNo</th>
+                            <th>@entry.EntryDateTime.ToString("dd/MM/yyyy HH:mm")</th>
+                            <th>@entry.EntryType</th>
+                            <th>@entry.Quantity</th>
+                            <th>@(entry.GrossValue * (entry.QuantityConsumed / (decimal)entry.Quantity))</th>
+                            <th>@entry.GrossUnitPrice</th>
+                            <th>@(entry.NetValue * (entry.QuantityConsumed / (decimal)entry.Quantity))</th>
+                            <th>@entry.NetUnitPrice</th>
+                            <th>@entry.QuantityConsumed</th>
+                            <th>@(entry.NetValue * (entry.QuantityConsumed / (decimal)entry.Quantity) - Entry.NetValue * (entry.QuantityConsumed / (decimal)Entry.Quantity))</th>
+                        </tr>
+                    }
+                </table>
+            </td>
+        </tr>
+    }
+</tbody>
+
+@code {
+    [Parameter]
+    private List<ComputedEntry> Entries { get; set; }
+    [Parameter]
+    private ComputedEntry Entry { get; set; }
+
+    private List<ComputedEntry> _relatedEntries;
+    private List<ComputedEntry> RelatedEntries
+    {
+        get {
+            if (_relatedEntries == null)
+            {
+                var relatedEntries = Entries.SelectMany(x => x.RelatedEntries);
+                _relatedEntries = (from a in Entries
+                                   join b in relatedEntries on a.EntryNo equals b.RelatedEntryNo
+                                   join c in Entries on b.EntryNo equals c.EntryNo
+                                   where a.EntryNo == Entry.EntryNo
+                                   select new ComputedEntry(c.EntryNo
+                                       , c.EntryDateTime
+                                       , c.EntryType
+                                       , c.Quantity
+                                       , c.GrossValue
+                                       , c.NetValue
+                                       , null)
+                                   { QuantityConsumed = b.Quantity, }).ToList();
+            }
+            return _relatedEntries;
+        }
+    }
+    private bool visible = false;
+
+    private void RowClicked()
+    {
+        if (Entry.EntryType == EntryType.Buy)
+            visible = !visible;
+    }
+}
