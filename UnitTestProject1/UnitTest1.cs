@@ -53,5 +53,26 @@ namespace UnitTestProject1
             var entries = GetEntries(1);
             var output = lifo.ComputeCOGS(entries);
         }
+
+        [TestMethod]
+        public void TestMethod4()
+        {
+            var entries = GetEntries(2);
+            var output = weightedAverage.ComputeCOGS(entries);
+        }
+
+        [TestMethod]
+        public void TestMethod5()
+        {
+            var entries = GetEntries(2);
+            var output = fifo.ComputeCOGS(entries);
+        }
+
+        [TestMethod]
+        public void TestMethod6()
+        {
+            var entries = GetEntries(2);
+            var output = lifo.ComputeCOGS(entries);
+        }
     }
 }
