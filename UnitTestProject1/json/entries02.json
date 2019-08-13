@@ -148,5 +148,15 @@
     "NetValue": 101250.0,
     "GrossUnitPrice": 20250.0,
     "NetUnitPrice": 20250.0
+  },
+  {
+    "EntryNo": 16,
+    "EntryDateTime": "2019-08-05T21:33:45",
+    "EntryType": "Sell",
+    "Quantity": 15,
+    "GrossValue": 319500.0,
+    "NetValue": 319500.0,
+    "GrossUnitPrice": 21300.0,
+    "NetUnitPrice": 21300.0
   }
 ]
